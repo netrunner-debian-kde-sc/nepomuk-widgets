@@ -1,0 +1,6 @@
+usr/include/nepomuk2
+usr/lib/cmake/NepomukWidgets/NepomukWidgetsConfig.cmake
+usr/lib/cmake/NepomukWidgets/NepomukWidgetsConfigVersion.cmake
+usr/lib/cmake/NepomukWidgets/NepomukWidgetsTargetsWithPrefix-debian.cmake
+usr/lib/cmake/NepomukWidgets/NepomukWidgetsTargetsWithPrefix.cmake
+usr/lib/libnepomukwidgets.so
