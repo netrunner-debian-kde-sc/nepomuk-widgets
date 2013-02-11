@@ -42,4 +42,4 @@ Description: Nepomuk Semantik Desktop widgets  -- debug package
  file system monitoring, query, and of course storage, as well as the
  corresponding client libraries.
  .
- This package contains the debugging symbols from libnepomukwidgets.
+ This package contains the debugging symbols for the Nepomuk widgets library.
