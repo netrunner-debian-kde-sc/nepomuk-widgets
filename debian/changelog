@@ -1,4 +1,4 @@
-nepomuk-widgets (4:4.10.0-0r1) UNRELEASED; urgency=low
+nepomuk-widgets (4:4.10.1-0r0) UNRELEASED; urgency=low
 
   * Initial release. Some bits are sligthly based on Ubuntu; the copyright file
     and package descriptions were copied from there and modified later.
