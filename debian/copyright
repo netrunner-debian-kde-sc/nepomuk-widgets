@@ -17,8 +17,8 @@ Copyright: 2009-2010 Sebastian Trueg <trueg@kde.org>
            2012 Vishesh Handa <me@vhanda.in>
 License: LGPL-2.1+3+KDEeV
 
-Files: test/tagwidgetapp.h
-       test/tagwidgettest.cpp
+Files: test/tagwidgetapp.cpp
+       test/tagwidgettest.h
        test/tagwidgettest.cpp
 Note: These files doesn't have any copyright or license information. 
 
