@@ -1,6 +1,7 @@
 nepomuk-widgets (4:4.10.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump Standars-Version to 3.9.4.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jun 2013 16:54:16 +0200
 
