@@ -1,0 +1,10 @@
+Index: nepomuk-widgets/CMakeLists.txt
+===================================================================
+--- nepomuk-widgets.orig/CMakeLists.txt	2013-09-16 14:42:25.516808807 +0000
++++ nepomuk-widgets/CMakeLists.txt	2013-09-16 14:49:20.572187462 +0000
+@@ -118,3 +118,5 @@
+         DESTINATION ${LIB_INSTALL_DIR}/cmake/NepomukWidgets
+         FILE NepomukWidgetsTargetsWithPrefix.cmake
+         )
++
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

@@ -14,7 +14,7 @@ Homepage: http://www.kde.org/
 Package: libnepomukwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libnepomukwidgets4 (= ${binary:Version}), ${misc:Depends}
+Depends: libnepomukwidgets4abi1 (= ${binary:Version}), ${misc:Depends}
 Description: Nepomuk Semantik Desktop widgets library -- development files
  The Nepomuk system contains of the central services like file indexing,
  file system monitoring, query, and of course storage, as well as the
@@ -22,8 +22,9 @@ Description: Nepomuk Semantik Desktop widgets library -- development files
  .
  This package contains the development files for the Nepomuk widgets library.
 
-Package: libnepomukwidgets4
+Package: libnepomukwidgets4abi1
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Nepomuk Semantik Desktop widgets library
  This is the KDE Meta Data library (not to confuse with KFileMetaData). It
@@ -37,7 +38,7 @@ Package: nepomuk-widgets-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libnepomukwidgets4 (= ${binary:Version}), ${misc:Depends}
+Depends: libnepomukwidgets4abi1 (= ${binary:Version}), ${misc:Depends}
 Description: Nepomuk Semantik Desktop widgets  -- debug package
  The Nepomuk system contains of the central services like file indexing,
  file system monitoring, query, and of course storage, as well as the
