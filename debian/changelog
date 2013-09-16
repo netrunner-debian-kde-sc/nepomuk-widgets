@@ -3,6 +3,7 @@ nepomuk-widgets (4:4.11.1-1) UNRELEASED; urgency=low
   * New upstream release.
   * Enable DebianABIManager.
   * Add symbols file for libnepomukwidgets4abi1.
+  * Update optional build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:25:58 +0200
 
