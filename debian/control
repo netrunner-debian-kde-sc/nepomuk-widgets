@@ -10,6 +10,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libsoprano-dev (>= 2.9.3), doxygen, libx11-dev
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/nepomuk-widgets.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/nepomuk-widgets.git
 
 Package: libnepomukwidgets-dev
 Section: libdevel
