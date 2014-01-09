@@ -2,6 +2,7 @@ nepomuk-widgets (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Add vcs fields.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 14:38:09 -0300
 
