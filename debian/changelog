@@ -5,6 +5,7 @@ nepomuk-widgets (4:4.11.5-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtest.
   * Do not disable an empty test set.
+  * Enable build failures on missing symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 14:38:09 -0300
 

@@ -2,9 +2,6 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-override_dh_makeshlibs:
-	$(overridden_command) -- -c0
-
 override_dh_shlibdeps:
 	$(overridden_command) -- -xkde-runtime
 
