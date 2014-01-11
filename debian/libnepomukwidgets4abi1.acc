@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/nepomuk2/nepomukwidgets_export.h
+    /usr/include/nepomuk2/filemetadataconfigwidget.h
+    /usr/include/nepomuk2/tagwidget.h
+    /usr/include/nepomuk2/resourcemodel.h
+    /usr/include/nepomuk2/filemetadatawidget.h
+</headers>
+
+<libs>
+    /usr/lib/libnepomukwidgets.so
+</libs>
+
+</descriptor>

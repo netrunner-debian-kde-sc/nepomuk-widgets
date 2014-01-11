@@ -6,6 +6,7 @@ nepomuk-widgets (4:4.11.5-1) UNRELEASED; urgency=low
   * Add autopkgtest.
   * Do not disable an empty test set.
   * Enable build failures on missing symbols.
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 14:38:09 -0300
 
