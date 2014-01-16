@@ -1,4 +1,4 @@
-nepomuk-widgets (4:4.11.5-1) UNRELEASED; urgency=low
+nepomuk-widgets (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
   * Add vcs fields.
@@ -8,7 +8,7 @@ nepomuk-widgets (4:4.11.5-1) UNRELEASED; urgency=low
   * Enable build failures on missing symbols.
   * Add abi-compliance-checker info.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jan 2014 14:38:09 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 15 Jan 2014 21:13:45 -0300
 
 nepomuk-widgets (4:4.11.3-1) unstable; urgency=low
 
