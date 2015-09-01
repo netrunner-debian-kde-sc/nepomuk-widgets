@@ -2,12 +2,16 @@ Source: nepomuk-widgets
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake (>= 2.8.6), debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11), nepomuk-core-dev (>= 4:4.11),
- libsoprano-dev (>= 2.9.3), doxygen, libx11-dev
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.6),
+               debhelper (>= 9),
+               doxygen,
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libsoprano-dev (>= 2.9.3),
+               libx11-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
@@ -17,7 +21,11 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/nepomuk-widgets.git
 Package: libnepomukwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libnepomukwidgets4abi1 (= ${binary:Version}), ${misc:Depends}
+Depends: kdelibs5-dev,
+         libnepomukwidgets4abi1 (= ${binary:Version}),
+         libsoprano-dev,
+         nepomuk-core-dev,
+         ${misc:Depends}
 Description: Nepomuk Semantik Desktop widgets library -- development files
  The Nepomuk system contains of the central services like file indexing,
  file system monitoring, query, and of course storage, as well as the
